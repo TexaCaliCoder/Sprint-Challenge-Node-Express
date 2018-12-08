@@ -10,7 +10,7 @@
 ## What is Middleware?
     Middleware takes Express and makes it more Robust. 
 ## What is a Resource?
-    Is an part of our server that is managed and accessed byt our HTTP calls
+    Is an part of our server that is managed and accessed by our HTTP calls (info in our Database)
 ## What can the API return to help clients know if a request was successful?
     HTTP Status codes
 ## How can we partition our application into sub-applications?
