@@ -39,7 +39,7 @@ server.get('/projects/:id', (req, res)=>{
 })
 
 server.post('/projects/add', (req, res)=>{
-    const data = req.body
+    const data = req.body;
     projectDB.insert(data)
         .then(newProject =>{
             res.status(201).json(newProject)
